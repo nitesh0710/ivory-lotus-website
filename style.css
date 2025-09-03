@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #FAFAFA;
+}
+a { color: #2E4057; text-decoration: none; }
+header {
+    background-color: #F5F5F0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin-left: 20px;
+}
+nav li a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hero {
+    background-color: #C2B59B;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.hero p {
+    font-size: 1.2em;
+}
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.card {
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 10px;
+    color: #2E4057;
+}
+.card p {
+    margin: 0 10px 10px;
+}
+.testimonial {
+    border-left: 4px solid #C2B59B;
+    padding-left: 16px;
+    margin: 20px 0;
+    font-style: italic;
+}
+footer {
+    background-color: #F5F5F0;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
